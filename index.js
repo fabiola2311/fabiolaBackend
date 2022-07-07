@@ -1,8 +1,8 @@
-import express from 'express';
-import fs from 'fs'
+const fs = require('fs')
+const express = require('express')
+
 
 const app = express();
-
 class Container {
 
     constructor(file) {
